@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+}
+.house {
+    width: 500px;
+    height: 500px;
+}
+.roof {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent #efd17c transparent;
+    border-width: 0px 250px 200px 250px;
+    
+}
+.walls {
+    height: 320px;
+    width: 500px;
+    background-image: url(../img/wall.jpg); 
+    z-index: 0;
+}
+.window {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/window.webp);
+    background-size: 150px 150px;
+    z-index:3;
+}
+.door {
+    width: 100px;
+    height: 250px;
+    background-image: url(../img/door.png);
+    z-index: 1;
+    background-size: 100px 250px;
+}
+.curtains{
+    background-image: url(../img/shtory.webp);
+    width: 130px;
+    height: 130px;
+    background-size: 130px 130px;
+    z-index: 2;
+}
+.room {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    z-index: 1;
+}
+.house__1 {
+    position: absolute;
+}
+.window__1 {
+    position: absolute;
+    left: 130px;
+    top: 261px;
+}
+.door__1 {
+    position: absolute;
+    left: 350px;
+    bottom: -20px;
+}
+.curtains_1{
+    position: absolute;
+    left: 140px;
+    top: 275px;
+
+}
+.room_1{
+    position: absolute;
+    left: 140px;
+    top: 270px;
+}
+.house__2 {
+    position: relative;
+    margin-left: 550px
+}
+.window__2 {
+    position: relative;
+    left: 130px;
+    top: 25px;
+}
+.door__2 {
+    position: relative;
+    left: 350px;
+    top: -117px;
+}
+.curtains_2{
+    position: relative;
+    left: 140px;
+    top: -357px;
+}
+.room_2{
+    position: relative;
+    left: 140px;
+    top: -500px;
+
+}
+.house__3 {
+    position: static;
+    margin-top: 50px;
+}
+.walls__3 {
+    position: static;
+    padding-top: 10px;
+    height: 291px;
+}
+.window__3 {
+    position: static;
+    margin-left: 130px;
+    float: left;
+    margin-top: -248px;
+}
+.door__3 {
+    position: static;
+    margin-left: 350px;
+}
+.curtains_3{
+    position: static;
+    margin-left: 140px;
+    float: left;
+    margin-top: -230px;
+}
+.room_3{
+     position: static;
+    margin-left: 140px;
+    float: left;
+    margin-top: -230px;
+
+}
+.house__4 {
+    position: fixed;
+    top: 482px;
+    left: 550px;
+}
+.window__4 {
+    position: fixed;
+    top: 745px;
+    left: 680px;
+}
+.door__4 {
+    position: fixed;
+    top: 730px;
+    left: 900px;
+    
+}
+.curtains_4{
+    position: fixed;
+    top: 760px;
+    left: 690px;
+}
+.room_4{
+     position: fixed;
+    top: 760px;
+    left: 690px;
+
+
+
+
+
+
+
+
+
